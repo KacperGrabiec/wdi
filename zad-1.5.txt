@@ -1,3 +1,0 @@
-API:
-https://exchangeratesapi.io/
-
