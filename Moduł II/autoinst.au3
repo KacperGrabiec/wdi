@@ -1,5 +1,5 @@
-#include<File.au3>
-#include<Array.au3>
+#include <File.au3>
+#include <Array.au3>
 
 Main()
 
@@ -9,7 +9,7 @@ Func Main()
    Local $files_msi = _FileListToArray($directory, "*.msi", 0, True) ;zmiennna, ktora jest inicjowana plikami z rozszerzeniem *.msi z danego folderu
 
    Install($files_msi)
-   Delete($files_msi)
+   ;Delete($files_msi)
 EndFunc
 
 ;instalacja programow
